@@ -6,7 +6,16 @@ import Exp from './Exp'
 function Explain() {
   return (
    <Box>
-   <Typography style={{fontWeight:'normal',fontFamily:'Montserrat',display:'flex',justifyContent:'center'}} fontSize="28px" fontWeight="600" mb={5}>
+   <Typography sx={{
+          fontWeight: 'normal',
+          fontFamily: 'Montserrat',
+          fontSize: { xs: '22px', sm: '28px' }, // Responsive font size
+          fontWeight: 600,
+          mb: { xs: 5, sm: 5 },
+          color: { xs: 'white', sm: 'inherit' }, // White color on small devices
+          textAlign: { xs: 'center' }, // Center text on small devices
+          justifyContent:'center'
+        }}>
    All our room types are including complementary breakfast
    </Typography>
    <Stack direction='column' spacing={5}>

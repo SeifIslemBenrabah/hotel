@@ -8,7 +8,7 @@ import SwimmingPool from '../Assets/image/SwimmingPool.png'
 function Groupes() {
   return (
     <Box>
-      <Typography style={{fontWeight:'bold',fontFamily:'Rosarivo',textAlign:'center'}} fontSize="40px" fontWeight="600">
+      <Typography sx={{fontWeight:'bold',fontFamily:'Rosarivo',color: { xs: 'white', sm: 'black' },textAlign:'center',mb:{xs:'80px',sm:'0px'}}} fontSize="40px" fontWeight="600" mt={7}>
       FACILITIES
    </Typography>
     <Typography style={{fontWeight:'normal',fontFamily:'Montserrat',textAlign:'center'}} mb={5} variant='h6'>

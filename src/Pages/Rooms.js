@@ -15,7 +15,9 @@ function Rooms() {
       zIndex: -1
     }}/>
     <Banner/>
+    <Box sx={{mt:{md:0,xs:30}}}>
     <Buttom left='/ContactUS' right='/Facilities'/>
+    </Box>
    </Box>
   )
 }
